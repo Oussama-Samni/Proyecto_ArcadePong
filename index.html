@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PONG — Neon Glass</title>
+
+  <!-- Tipografías (gratis) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Manrope:wght@400;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- LANDING (Sólo título + Start) -->
+  <header id="hero" class="hero">
+    <div class="hero-card glass-xl">
+      <!-- ↓↓↓ AQUÍ CAMBIAS EL COPY DEL TÍTULO ↓↓↓ -->
+      <h1 class="hero-title">PONG</h1>
+      <!-- ↑↑↑ FIN COPY DEL TÍTULO ↑↑↑ -->
+      <button id="btn-start" class="glass-btn-xl">Start</button>
+    </div>
+  </header>
+
+  <!-- TABLERO DE JUEGO (solo tablero al jugar) -->
+  <main id="board" class="board hidden">
+    <div class="board-frame glass-xxl">
+      <canvas id="game-canvas" width="800" height="600" aria-label="Pong"></canvas>
+    </div>
+  </main>
+
+  <!-- MODAL NOMBRES -->
+  <div id="name-modal" class="modal hidden">
+    <div class="modal-content glass-md">
+      <h2>Jugadores</h2>
+      <form id="name-form" class="name-form">
+        <label>Jugador 1
+          <input id="name-p1" type="text" placeholder="Nombre jugador 1" required />
+        </label>
+        <label>Jugador 2
+          <input id="name-p2" type="text" placeholder="Nombre jugador 2" required />
+        </label>
+        <div class="form-actions">
+          <button type="button" id="cancel-modal" class="btn-secondary">Cancelar</button>
+          <button type="submit" class="glass-btn">Empezar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
