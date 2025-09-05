@@ -1,3 +1,13 @@
+---
+title: Proyecto Arcade Pong
+emoji: 🎮
+colorFrom: blue
+colorTo: pink
+sdk: docker
+pinned: false
+---
+
+
 # 🎮 PONG — Neon Glass Edition
 
 A modern remake of the classic Pong built with **HTML5 Canvas**, featuring:
@@ -27,7 +37,7 @@ Example:
 ![Landing Screen](./assets/landing.png)  
 ![Gameplay](./assets/game.png)  
 
-> 💡 Save your screenshots inside a `screenshots/` folder in the repo and link them here.
+> 💡 Save your screenshots inside a `assets/` folder in the repo and link them here.
 
 ---
 
