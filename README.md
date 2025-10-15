@@ -31,16 +31,10 @@ A modern remake of the classic Pong built with **HTML5 Canvas**, featuring:
 
 ## 🖼️ Screenshots
 
-Add your game screenshots here to showcase visuals.  
-Example:
-
-## 🖼️ Screenshots
-
 ![Landing](./assets/Landing%20Screen.png)
 ![Gameplay](./assets/Gameplay.png)
   
 
-> 💡 Save your screenshots inside a `assets/` folder in the repo and link them here.
 
 ---
 
