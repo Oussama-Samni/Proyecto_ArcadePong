@@ -1,12 +1,3 @@
----
-title: Proyecto Arcade Pong
-emoji: 🎮
-colorFrom: blue
-colorTo: pink
-sdk: docker
-pinned: false
----
-
 
 # 🎮 PONG — Neon Glass Edition
 
